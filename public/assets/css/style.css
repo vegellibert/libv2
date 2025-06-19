@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Estilos para la navegación */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Estilos para las tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+
+/* Estilos para los formularios */
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Estilos para las tablas */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para las alertas */
+.alert {
+    border-radius: 0.25rem;
+}
+
+/* Estilos para el footer */
+footer {
+    box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+}
+
+/* Responsividad adicional */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
